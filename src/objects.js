@@ -32,3 +32,12 @@ Exercise:
     d. coursesOffered - Array containing 3 Strings
 2. Print in the console the following sentence using the "school object" - "Welcome to <name> and we offer <coursesOffered>
 */
+
+let school = {
+    name: "Greenwood High School",
+    yearEstablished: 1995,
+    isActive: true,
+    coursesOffered: ["Mathematics", "Science", "History"]
+};
+
+console.log(school);

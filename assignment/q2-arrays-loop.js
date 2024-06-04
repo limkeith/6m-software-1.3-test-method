@@ -7,7 +7,11 @@
 const studentList = ["Johnson", "Christina", "Michael", "Lina", "Larry", "Michelle", "Bob", "Wilson"]
 
 function printStudentNames(){
-    // Add code here
+   // Iterate through the studentList array
+   for (let i = 0; i < studentList.length; i++) {
+    // Print each student's name
+    console.log(studentList[i]);
+}
 }
 
 printStudentNames();
